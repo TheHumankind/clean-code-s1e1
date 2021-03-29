@@ -25,7 +25,7 @@
 
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
 
   .main-img { 
       
@@ -55,20 +55,20 @@
 }
 .task-list {
 
-    margin:0;
+    margin: 0;
     padding: 0px;
 
 }
 .task-item, .subheader {
 
-    list-style:none;
+    list-style: none;
 
 }
 .task, 
 .all-btn, 
 .input-descr{
 
-    outline:none;
+    outline: none;
 
 }
 .all-btn {
@@ -203,19 +203,19 @@
 /* Edit Task */
 .task-list .task-item .input-descr {
 
-    display:none
+    display: none
 
 }
 
 .task-list .edit-mode .input-descr {
 
     display:inline-block;
-    width:224px
+    width: 224px
 
 }
 
 .task-list .edit-mode .task {
 
-    display:none;
-    
+    display: none;
+
 }
