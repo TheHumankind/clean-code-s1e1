@@ -6,20 +6,20 @@
     <link rel="stylesheet" href="style.css" type="text/css" media="screen" charset="utf-8">
   </head>
   <body class="page">
-    <div class="main-img"><img class="img" src="./eisenhower-matrix.jpg">
+    <header class="main-img"><img class="img" src="./eisenhower-matrix.jpg">
       <a class="more-inf" href="https://goal-life.com/page/method/matrix-eisenhower">
         Want more details?
       </a>
-    </div>
-    <div class="centered-main-page-element">
+    </header>
+    <main class="centered-main-page-element">
       <p id="add-to-list">
         <label class="new-task-header" for="new-task">Add Item</label>
-        <div class="task-row-wrapper">
+        <section class="task-row-wrapper">
           <input id="new-task" class="task input-descr" type="text">
           <button class = "all-btn" >
             Add
           </button>
-        </div>
+        </section>
       </p>
       <h3 class="subheader">Todo</h3>
       <ul class="task-list" id="incomplete-tasks">
@@ -43,18 +43,18 @@
         </li>
       </ul>
       <h3 class="subheader">Completed</h3>
-        <ul class="task-list" id="completed-tasks">
-          <li class="task-item">
-            <input class="task-checkbox" type="checkbox" checked>
-            <label class="task">See the Doctor</label>
-            <input class="input-descr" type="text" class="task">
-            <button class="all-btn edit">Edit</button>
-            <button class="all-btn delete">
-              <img class="img" src="./remove.svg">
-            </button>
-          </li>
-        </ul>
-    </div>
+      <ul class="task-list" id="completed-tasks">
+        <li class="task-item">
+          <input class="task-checkbox" type="checkbox" checked>
+          <label class="task">See the Doctor</label>
+          <input class="input-descr" type="text" class="task">
+          <button class="all-btn edit">Edit</button>
+          <button class="all-btn delete">
+            <img class="img" src="./remove.svg">
+          </button>
+        </li>
+      </ul>
+    </main>
     <script type="text/javascript" src="app.js"></script>
   </body>
 </html>
