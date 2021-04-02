@@ -48,7 +48,7 @@
     flex-grow: 1;
 
 }
-.task-row-wrapper {
+.task__wrapper {
 
     display: flex;
 
@@ -59,7 +59,7 @@
     padding: 0px;
 
 }
-.task-item, .subheader {
+.task-list__item, .subheader {
 
     list-style: none;
 
@@ -89,7 +89,7 @@
 }
 /* Heading */
 .subheader,
-.new-task-header {
+.new-task__header {
 
     color: #333;
     font-weight: 700;
@@ -121,7 +121,7 @@
 }
 
 /* New Task */
-.new-task-header {
+.new-task__header {
 
     display: block;
     margin: 0 0 20px;
@@ -139,7 +139,7 @@
 }
 
 /* Task list */
-.task-item {
+.task-list__item {
 
     overflow: hidden;
     padding: 20px 0;
@@ -150,18 +150,18 @@
     align-items: center;
 
 }
-.task-item > * {
+.task-list__item > * {
 
     vertical-align: middle;
 
 }
 
-.task-item > .task-checkbox {
+.task-list__item > .task-list__item-box {
 
     margin: 0 10px;
 
 }
-.task-item > .task {
+.task-list__item > .task {
 
     padding-left: 10px;
     box-sizing: border-box;
@@ -169,12 +169,12 @@
     width: 226px;
 
 }
-.task-item > .input-descr {
+.task-list__item > .input-descr {
 
     width: 226px;
 
 }
-.task-item > .delete:hover {
+.task-list__item > .delete:hover {
 
     color: #CF2323;
 
@@ -201,20 +201,20 @@
 }
 
 /* Edit Task */
-.task-list .task-item .input-descr {
+.task-list .task-list__item .input-descr {
 
     display: none;
 
 }
 
-.task-list .edit-mode .input-descr {
+.task-list .edit__mode .input-descr {
 
     display:inline-block;
     width: 224px;
 
 }
 
-.task-list .edit-mode .task {
+.task-list .edit__mode .task {
 
     display: none;
 
